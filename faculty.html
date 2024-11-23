@@ -11,6 +11,11 @@ crossorigin="anonymous">
 .navbar-custom {
 background-color: #2505b5;
 }
+.hero-image {
+      width: 100%;
+      height: 400px; /* Adjust the height as per your requirement */
+      object-fit: cover; /* Ensures the image covers the full area */
+}
 .hero-section {
 background: url('images/tabson.png') no-repeat center center;
 background-size: cover;
@@ -28,6 +33,7 @@ font-size: 2.5rem;
 display: none;
 padding: 50px 0;
 }
+
 .footer-custom {
 background-color: #2505b5;
 color: white;
@@ -66,9 +72,7 @@ padding: 20px 0;
         </ul>
       </li>
       
-    <li class="nav-item">
-    <a class="nav-link" href="#">Senior High</a>
-    </li>
+    
     <li class="nav-item">
     <a class="nav-link" href="faculty.html">Faculty</a>
     </li>
@@ -80,7 +84,170 @@ padding: 20px 0;
     </div>
     </nav>
 
+    <img src="images/faculty.png" alt="Hero Image" class="hero-image">
 
+
+    <section class="principal-hero py-5 text-center bg-primary text-white">
+      <div class="container">
+        <h2 class="mb-3">Message from Our Principal</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="images/principal.png" alt="Principal Image" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+          </div>
+          <div class="col-md-8">
+            <h3>Mary Grace Jeremias</h3>
+            <p><em>Principal of Tabason National High School</em></p>
+            <p>“Welcome to Tabason National High School! Our mission is to empower students to achieve their full potential through excellence in education, innovation, and a nurturing environment.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="principal-bio py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About Our Principal</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/mary.png" alt="Principal Portrait" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h3>Mary Grace Jeremias</h3>
+            <p>With over 20 years of experience in education, Mary Grace Jeremias has been leading Tabason National High School with passion and dedication. Under her leadership, the school has achieved:</p>
+            <ul>
+              <li>Increased graduation rates by 20% over 5 years.</li>
+              <li>Expanded extracurricular programs, including STEM initiatives.</li>
+              <li>Fostered a culture of inclusion and excellence.</li>
+            </ul>
+            <p>Dr. Doe holds a Ph.D. in Educational Leadership from [University Name]. Her vision is to create a future-ready school that empowers students to thrive in a dynamic world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="principal-achievements py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Principal’s Vision and Achievements</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Academic Excellence</h3>
+            <p>Introduced innovative teaching methods that improved student outcomes significantly.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Community Engagement</h3>
+            <p>Fostered partnerships with local organizations to enhance student learning opportunities.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Future-Ready Focus</h3>
+            <p>Integrated technology and STEM programs to prepare students for a competitive world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="faculty-directory py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Faculty</h2>
+        <div class="row">
+          <!-- Example Faculty Member -->
+          <div class="col-md-4 text-center">
+            <img src="images/melvin.jpg" alt="Teacher 1" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+            <h4>Mr. Melvin Bitoin</h4>
+            <p>Science teacher</p>
+            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#facultyModal1">View Profile</button>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="images/abegail.jpg" alt="Teacher 1" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+            <h4>Mrs. Abegail Deleon</h4>
+            <p>Mathematics teacher</p>
+            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#facultyModal1">View Profile</button>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="images/jenny.jpg" alt="Teacher 1" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+            <h4>Mrs. Ma Jenny Santos</h4>
+            <p>TLE teacher</p>
+            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#facultyModal1">View Profile</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faculty-spotlight py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Faculty Spotlight</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="images/melvin.jpg" alt="Spotlight Teacher" class="img-fluid rounded">
+          </div>
+          <div class="col-md-8">
+            <h3>Mr. Melvin Bitoin</h3>
+            <p>With over 20 years of experience, Sir Melvin has been instrumental in shaping the school's science curriculum. He recently received the *Best Educator Award 2024* for his innovative teaching methods in our school.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="faculty-stats py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Faculty by the Numbers</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>50+</h3>
+            <p>Experienced Educators</p>
+          </div>
+          <div class="col-md-4">
+            <h3>90%</h3>
+            <p>With Advanced Degrees</p>
+          </div>
+          <div class="col-md-4">
+            <h3>25</h3>
+            <p>Years of Average Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="faculty-testimonials py-5 bg-dark text-light">
+      <div class="container">
+        <h2 class="text-center mb-4">What Students Say</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>"Sir Melvin is an amazing science teacher who makes even the hardest topics easy to understand."</p>
+              <footer class="blockquote-footer text-light">- Student</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>"Ma'am Loren is the kindest and sweetest English teacher. She's not only great at teaching English but also makes learning fun with games."</p>
+              <footer class="blockquote-footer text-light">- Student</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>"Ma'am Marivel and Ma'am Jeanny are the best TLE teachers. They make every lesson so engaging and insightful."</p>
+              <footer class="blockquote-footer text-light">- Student</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>"Ma'am Abegail is an exceptional mathematics teacher. Even though math is tough, we never dread it because she makes it so enjoyable and fun."</p>
+              <footer class="blockquote-footer text-light">- Student</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+
+    
     <footer class="footer-custom text-center">
         <div class="container">
           <p>&copy; 2024 TNHS School | All Rights Reserved</p>
